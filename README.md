@@ -29,10 +29,15 @@ Em geral, os contratos representam as operações CRUD, porém há outros métod
 
 Maneira correta:
 POST  https://meusite.com.br/items
+
 PUT https://meusite.com.br/items
+
 GET https://meusite.com.br/items
+
 
 Maneira errada:
 POST  https://meusite.com.br/items/cadastrar
+
 PUT    https://meusite.com.br/items/atualizar
+
 GET https://meusite.com.br/items/listar
