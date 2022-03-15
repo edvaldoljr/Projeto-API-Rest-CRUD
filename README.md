@@ -28,6 +28,7 @@ Em geral, os contratos representam as operações CRUD, porém há outros métod
 É importante considerar que os métodos HTTP precisam identificar suas rotas e ações de forma clara e entendível, vejamos os exemplos a seguir:
 
 Maneira correta:
+
 POST  https://meusite.com.br/items
 
 PUT https://meusite.com.br/items
@@ -36,6 +37,7 @@ GET https://meusite.com.br/items
 
 
 Maneira errada:
+
 POST  https://meusite.com.br/items/cadastrar
 
 PUT    https://meusite.com.br/items/atualizar
